@@ -1,0 +1,21 @@
+img{
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+.image1 .text{
+    position: absolute;
+    font-size: medium;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+.image1:hover{
+    cursor: pointer;
+}
+.image1:hover .text{
+    display: inline;
+    float: left;
+    top: 15%;
+    left: 15%;
+    visibility:visible;
+}
