@@ -1,0 +1,26 @@
+body{
+    
+    display: inline;
+}
+ul{
+   
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 20px;
+}
+li:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+li:hover:before,
+li:focus:before {
+  transform: scale(1);
+}

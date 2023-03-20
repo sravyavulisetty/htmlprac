@@ -1,0 +1,30 @@
+div{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border-radius: 4%;
+    background-color: #60a9ff;
+    margin: auto;
+    overflow: scroll;
+}
+span{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin:5%;
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+li{
+    color: white;
+    padding-top: 10px;
+}
