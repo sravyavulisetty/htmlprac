@@ -1,0 +1,176 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #E5E4E2;
+    width: 100%;
+    height: 70px;
+}
+a{
+    color:black;
+}
+.image{
+    background-image:
+    linear-gradient(to right, #bbf7d0 5%, #cffafe 25%, rgba(0,0,0,0) 60%),
+    url('/Users/prasanth/Downloads/hotel.jpeg');
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    object-fit: cover;
+}
+.navbar .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.logo{
+    display: inline-flex;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px
+}
+.container{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.img-thumbnail{
+    padding:0 !important;
+    margin: 0 !important;
+    width: 30px !important;
+}
+.text1{
+    padding: 0 !important;
+}
+.icon1 .svg{
+    height: 15px;
+    width: 15px;
+    filter:invert(.4) sepia(1) saturate(10) hue-rotate(180deg);
+}
+.text1 .p{
+    font-size: 5px;
+}
+.icon2 .svg{
+    height: 15px;
+    width: 15px;
+    filter:invert(.4) sepia(1) saturate(10) hue-rotate(0deg);
+}
+.icon3 .svg{
+    height: 15px;
+    width: 15px;
+    filter:invert(.4) sepia(1) saturate(10) hue-rotate(120deg);
+}
+.icon4 .svg{
+    height:15px;
+    width: 15px;
+    filter:invert(.4) sepia(1) saturate(15) hue-rotate(15deg);
+}
+.icon5 .svg{
+    width: 20px;
+    height :20px;
+    filter: invert(.4) sepia(1) saturate(200) hue-rotate(240deg);
+}
+.icon67 .svg{
+    width: 20px;
+    height :20px;
+    filter: invert(.4) sepia(1) saturate(200) hue-rotate(240deg);
+}
+.icon6 .svg{
+    width: 20px;
+    height: 20px;
+    filter:invert(70%);
+}
+.icon7{
+    border: 1px solid lightgray;
+    width:29px;
+    height: 29px;
+    border-radius: 50%;
+}
+.icon7 > .svg{
+    width: 13px;
+    height :13px;
+    filter: invert(.4) sepia(1) saturate(200) hue-rotate(240deg);
+}
+.card{
+    border-radius: 10px !important;
+}
+.pri{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.pen{
+    border: 1px solid lightgray;
+    width:23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #ccc;
+    opacity: 0.4;
+}
+.card-img-top{
+    border-top-right-radius: 10px !important;
+    border-top-left-radius: 10px !important;
+}
+.coll ~ img{
+    z-index: 0;
+}
+.coll ~ p{
+    z-index: 1;
+    margin-top: -180px !important;
+}
+.svg{
+    width: 20px;
+    height: 20px;
+}
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    width: 100%;
+}
+button:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.footer{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    z-index: -1;
+    background-color:#d8efff;
+    width: 100%;
+    height: 40%;
+    margin-top: -100px;
+}
+.card .coll .card-img-overlay> p{
+    visibility: hidden;
+}
+.card .coll:hover p{
+    color: black;
+    visibility: visible;
+}
+.card .coll:hover img{
+    opacity: 0.7;
+}
+.col-sm-half{
+    display: flex;
+    flex-direction: row;
+    width: 7%;
+    position: relative;
+    padding:0;
+    margin: 0;
+}
+
+
+
+
