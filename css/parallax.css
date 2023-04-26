@@ -1,0 +1,60 @@
+.src1{
+    background-image: url(/Users/prasanth/Downloads/9150C5BE-F4FC-41EE-91EF-9F9A02A9472B.jpg);
+    min-height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    padding: 0 50px 0 50px;
+    font-weight: 400;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+
+.src2{
+    background-image: url(/Users/prasanth/Downloads/DSC06642.jpg);
+    min-height: 600px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.src3{
+    background-image: url(/Users/prasanth/Downloads/DSC06249.JPG);
+    min-height: 600px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.src4{
+    background-image: url(/Users/prasanth/Downloads/IMG_9330.JPG);
+    min-height: 600px;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
